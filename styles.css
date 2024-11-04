@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1c3332;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.design-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.design-card {
+    border: 1px solid #013226;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 500px; /* Fixed width for consistency */
+}
+
+.design-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+}
+
+.design-card:hover {
+    transform: scale(1.05);
+}
+
+.estimation {
+    margin-top: 20px;
+}

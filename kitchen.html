@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kitchen Designs</title>
+</head>
+<body>
+    <header>
+        <h1>Kitchen Designs</h1>
+    </header>
+
+    <main>
+        <section class="design-selection">
+            <h2>Select Your Kitchen Design</h2>
+            <div class="design-options">
+                <div class="design-card" data-cost="3,00,000/-" data-dimensions="250 sqft" data-materials="Granite, Wood">
+                    <img src="images/kitchen_design1.jpg" alt="Kitchen Design 1">
+                    <p>Modern Kitchen</p>
+                </div>
+                <div class="design-card" data-cost="2,50,000/-" data-dimensions="220 sqft" data-materials="Marble, Glass">
+                    <img src="images/kitchen_design2.jpg" alt="Kitchen Design 2">
+                    <p>Cozy Kitchen</p>
+                </div>
+                <div class="design-card" data-cost="3,50,000/-" data-dimensions="300 sqft" data-materials="Steel, Composite">
+                    <img src="images/kitchen_design3.jpg" alt="Kitchen Design 3">
+                    <p>Elegant Kitchen</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="estimation">
+            <h2>Estimation</h2>
+            <div class="estimation-output">
+                <p><strong>Estimated Cost:</strong> <span id="cost">-</span></p>
+                <p><strong>Dimensions:</strong> <span id="dimensions">-</span></p>
+                <p><strong>Materials Required:</strong> <span id="materials">-</span></p>
+                <p><strong>Notes:</strong> This includes furniture, flooring, and decor. Final pricing may vary based on labor costs.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Interior Design Application</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
